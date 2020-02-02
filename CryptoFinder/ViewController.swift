@@ -10,49 +10,90 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class ViewController: UIViewController, MKMapViewDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
-    let locationManager = CLLocationManager()
+    private let locationManager = CLLocationManager()
     var coordinate = CLLocationCoordinate2D()
-    let regionInMeters: Double = 10000.0
+    var checkLocation: Bool = false
+    //let regionInMeters: Double = 10000.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        checkLocation = false
+        configureLocationServices()
         
         mapView.delegate = self
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
-        guard let newCoordinates = locationManager.location?.coordinate else { return }
-        let region = MKCoordinateRegion(center: newCoordinates, latitudinalMeters: 500, longitudinalMeters: 500)
-        mapView.setRegion(region, animated: true)
-        coordinate = newCoordinates
-        
-        let annotation1 = MKPointAnnotation()
-        annotation1.title = "Bulba Fett Tea"
-        annotation1.subtitle = "Everyone's favourite tea inspired by everyone's favourite Star Trek character"
-        annotation1.coordinate = coordinate
-        mapView.addAnnotation(annotation1)
-        
-        let annotation2 = MKPointAnnotation()
-        annotation2.title = "Kale"
-        annotation2.subtitle = "Kale French Fries!"
-        annotation2.coordinate = CLLocationCoordinate2D(latitude: 37.780664, longitude: -122.416183)
-        mapView.addAnnotation(annotation2)
+//        guard let newCoordinates = locationManager.location?.coordinate else { return }
+//        let region = MKCoordinateRegion(center: newCoordinates, latitudinalMeters: 500, longitudinalMeters: 500)
+//        mapView.setRegion(region, animated: true)
+//        coordinate = newCoordinates
+//
+//        let annotation1 = MKPointAnnotation()
+//        annotation1.title = "Bulba Fett Tea"
+//        annotation1.subtitle = "Everyone's favourite tea inspired by everyone's favourite Star Trek character"
+//        annotation1.coordinate = coordinate
+//        mapView.addAnnotation(annotation1)
+//
+//        let annotation2 = MKPointAnnotation()
+//        annotation2.title = "Kale"
+//        annotation2.subtitle = "Kale French Fries!"
+//        annotation2.coordinate = CLLocationCoordinate2D(latitude: 37.780664, longitude: -122.416183)
+//        mapView.addAnnotation(annotation2)
         
     }
 
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        if annotation is MKUserLocation {
-            return nil
+//    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+//        if annotation is MKUserLocation {
+//            return nil
+//        }
+//        let pin = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
+//        pin.canShowCallout = true
+//        pin.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+//        return pin
+//    }
+    
+    private func configureLocationServices(){
+        locationManager.delegate = self
+        let status = CLLocationManager.authorizationStatus()
+        
+        if status == .notDetermined {
+            locationManager.requestWhenInUseAuthorization()
+        } else if status == .authorizedWhenInUse {
+            beginLocationUpdates(locationManager: locationManager)
         }
-        let pin = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
-        pin.canShowCallout = true
-        pin.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-        return pin
     }
     
+    private func beginLocationUpdates(locationManager: CLLocationManager) {
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.startUpdatingLocation()
+        mapView.showsUserLocation = true
+    }
+    
+    private func zoomToLocation(coordinate: CLLocationCoordinate2D){
+        let region = MKCoordinateRegion(center: coordinate,latitudinalMeters: 10000,longitudinalMeters: 18000)
+        mapView.setRegion(region, animated: true)
+    }
+    
+}
+
+extension ViewController: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let latestLocation = locations.first else { return }
+        coordinate = latestLocation.coordinate
+        if checkLocation == false {
+            zoomToLocation(coordinate: coordinate)
+            checkLocation = true
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == .authorizedWhenInUse {
+            beginLocationUpdates(locationManager: manager)
+        }
+    }
 }
 
