@@ -15,6 +15,7 @@
 		0DACE3E923E6196B0018A64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DACE3E723E6196B0018A64A /* LaunchScreen.storyboard */; };
 		0DACE3F423E6196B0018A64A /* CryptoFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3F323E6196B0018A64A /* CryptoFinderTests.swift */; };
 		0DACE3FF23E6196B0018A64A /* CryptoFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3FE23E6196B0018A64A /* CryptoFinderUITests.swift */; };
+		0DBBE19023E6AF390088C597 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBE18F23E6AF390088C597 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0DACE3FA23E6196B0018A64A /* CryptoFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DACE3FE23E6196B0018A64A /* CryptoFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFinderUITests.swift; sourceTree = "<group>"; };
 		0DACE40023E6196B0018A64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBBE18F23E6AF390088C597 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0DACE3E523E6196B0018A64A /* Assets.xcassets */,
 				0DACE3E723E6196B0018A64A /* LaunchScreen.storyboard */,
 				0DACE3EA23E6196B0018A64A /* Info.plist */,
+				0DBBE18F23E6AF390088C597 /* Venue.swift */,
 			);
 			path = CryptoFinder;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DACE3E123E619660018A64A /* ViewController.swift in Sources */,
+				0DBBE19023E6AF390088C597 /* Venue.swift in Sources */,
 				0DACE3DD23E619660018A64A /* AppDelegate.swift in Sources */,
 				0DACE3DF23E619660018A64A /* SceneDelegate.swift in Sources */,
 			);
