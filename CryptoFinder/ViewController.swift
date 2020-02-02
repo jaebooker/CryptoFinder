@@ -74,8 +74,25 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     private func zoomToLocation(coordinate: CLLocationCoordinate2D){
-        let region = MKCoordinateRegion(center: coordinate,latitudinalMeters: 10000,longitudinalMeters: 18000)
+        let region = MKCoordinateRegion(center: coordinate,latitudinalMeters: 9000,longitudinalMeters: 15000)
         mapView.setRegion(region, animated: true)
+    }
+    
+    private func addAnnoations(){
+        
+        let testAnnotation = MKPointAnnotation()
+        testAnnotation.title = "Bulba Fett Tea"
+        testAnnotation.subtitle = "Everyone's favourite tea inspired by everyone's favourite Star Trek character"
+        testAnnotation.coordinate = coordinate
+        
+        let testAnnotation2 = MKPointAnnotation()
+        testAnnotation2.title = "Kale"
+        testAnnotation2.subtitle = "Kale French Fries!"
+        testAnnotation2.coordinate = CLLocationCoordinate2D(latitude: 37.780664, longitude: -122.416183)
+        
+        mapView.addAnnotation(testAnnotation)
+        mapView.addAnnotation(testAnnotation2)
+        
     }
     
 }
@@ -86,6 +103,7 @@ extension ViewController: CLLocationManagerDelegate {
         coordinate = latestLocation.coordinate
         if checkLocation == false {
             zoomToLocation(coordinate: coordinate)
+            addAnnoations()
             checkLocation = true
         }
     }
