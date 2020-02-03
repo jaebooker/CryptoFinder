@@ -20,6 +20,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        mapView.delegate = self
         checkLocation = false
         guard let url = URL(string: "https://coinmap.org/api/v1/venues/") else { return }
         let session = URLSession.shared
@@ -62,7 +63,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     private func zoomToLocation(coordinate: CLLocationCoordinate2D){
-        let region = MKCoordinateRegion(center: coordinate,latitudinalMeters: 5000,longitudinalMeters: 11000)
+        let region = MKCoordinateRegion(center: coordinate,latitudinalMeters: 500,longitudinalMeters: 2000)
         mapView.setRegion(region, animated: true)
     }
     
@@ -96,3 +97,26 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 
+extension ViewController {
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "AnnotationView")
+        
+        if annotationView == nil {
+            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "AnnotationView")
+        }
+        
+        if annotation !== mapView.userLocation {
+            annotationView?.image = UIImage(named: "bitcoinLogo40px")
+        }
+        
+        annotationView?.canShowCallout = true
+        
+        return annotationView
+    }
+    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        print("The annotation was selected: \(view.annotation?.title)")
+    }
+}

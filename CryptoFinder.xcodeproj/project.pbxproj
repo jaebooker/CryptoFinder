@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1D83E423E79B500056916F /* newBitcoinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E323E79B500056916F /* newBitcoinLogo.png */; };
+		0D1D83E623E79BB90056916F /* newerBitcoinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */; };
+		0D1D83E823E79C710056916F /* bitcoinLogo40px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E723E79C710056916F /* bitcoinLogo40px.png */; };
+		0D1D83EA23E79C760056916F /* bitcoinLogo60px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E923E79C760056916F /* bitcoinLogo60px.png */; };
+		0D1D83EC23E79C7A0056916F /* bitcoinLogo80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */; };
 		0DACE3DD23E619660018A64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3DC23E619660018A64A /* AppDelegate.swift */; };
 		0DACE3DF23E619660018A64A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3DE23E619660018A64A /* SceneDelegate.swift */; };
 		0DACE3E123E619660018A64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3E023E619660018A64A /* ViewController.swift */; };
@@ -15,6 +20,7 @@
 		0DACE3E923E6196B0018A64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DACE3E723E6196B0018A64A /* LaunchScreen.storyboard */; };
 		0DACE3F423E6196B0018A64A /* CryptoFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3F323E6196B0018A64A /* CryptoFinderTests.swift */; };
 		0DACE3FF23E6196B0018A64A /* CryptoFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3FE23E6196B0018A64A /* CryptoFinderUITests.swift */; };
+		0DAED87123E6C62800F87412 /* bitcoinlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAED87023E6C62800F87412 /* bitcoinlogo.png */; };
 		0DBBE19023E6AF390088C597 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBE18F23E6AF390088C597 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1D83E323E79B500056916F /* newBitcoinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBitcoinLogo.png; sourceTree = "<group>"; };
+		0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newerBitcoinLogo.png; sourceTree = "<group>"; };
+		0D1D83E723E79C710056916F /* bitcoinLogo40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo40px.png; sourceTree = "<group>"; };
+		0D1D83E923E79C760056916F /* bitcoinLogo60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo60px.png; sourceTree = "<group>"; };
+		0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo80px.png; sourceTree = "<group>"; };
 		0DACE3D923E619660018A64A /* CryptoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DACE3DC23E619660018A64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DACE3DE23E619660018A64A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +61,7 @@
 		0DACE3FA23E6196B0018A64A /* CryptoFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DACE3FE23E6196B0018A64A /* CryptoFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFinderUITests.swift; sourceTree = "<group>"; };
 		0DACE40023E6196B0018A64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAED87023E6C62800F87412 /* bitcoinlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinlogo.png; sourceTree = "<group>"; };
 		0DBBE18F23E6AF390088C597 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +113,7 @@
 		0DACE3DB23E619660018A64A /* CryptoFinder */ = {
 			isa = PBXGroup;
 			children = (
+				0DAED86F23E6C61500F87412 /* resources */,
 				0DACE3DC23E619660018A64A /* AppDelegate.swift */,
 				0DACE3DE23E619660018A64A /* SceneDelegate.swift */,
 				0DACE3E023E619660018A64A /* ViewController.swift */,
@@ -129,6 +142,19 @@
 				0DACE40023E6196B0018A64A /* Info.plist */,
 			);
 			path = CryptoFinderUITests;
+			sourceTree = "<group>";
+		};
+		0DAED86F23E6C61500F87412 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */,
+				0D1D83E323E79B500056916F /* newBitcoinLogo.png */,
+				0D1D83E923E79C760056916F /* bitcoinLogo60px.png */,
+				0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */,
+				0D1D83E723E79C710056916F /* bitcoinLogo40px.png */,
+				0DAED87023E6C62800F87412 /* bitcoinlogo.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +264,12 @@
 				0DACE3E923E6196B0018A64A /* LaunchScreen.storyboard in Resources */,
 				0DACE3E623E6196B0018A64A /* Assets.xcassets in Resources */,
 				0DACE3E423E619660018A64A /* Main.storyboard in Resources */,
+				0DAED87123E6C62800F87412 /* bitcoinlogo.png in Resources */,
+				0D1D83E423E79B500056916F /* newBitcoinLogo.png in Resources */,
+				0D1D83EA23E79C760056916F /* bitcoinLogo60px.png in Resources */,
+				0D1D83EC23E79C7A0056916F /* bitcoinLogo80px.png in Resources */,
+				0D1D83E623E79BB90056916F /* newerBitcoinLogo.png in Resources */,
+				0D1D83E823E79C710056916F /* bitcoinLogo40px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
