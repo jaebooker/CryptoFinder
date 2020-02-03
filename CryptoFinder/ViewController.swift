@@ -115,7 +115,4 @@ extension ViewController {
         return nil
     }
     
-//    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-//        print("The annotation was selected: \(view.annotation?.title)")
-//    }
 }

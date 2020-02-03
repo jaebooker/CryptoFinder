@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1D83E423E79B500056916F /* newBitcoinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E323E79B500056916F /* newBitcoinLogo.png */; };
-		0D1D83E623E79BB90056916F /* newerBitcoinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */; };
 		0D1D83E823E79C710056916F /* bitcoinLogo40px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E723E79C710056916F /* bitcoinLogo40px.png */; };
 		0D1D83EA23E79C760056916F /* bitcoinLogo60px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83E923E79C760056916F /* bitcoinLogo60px.png */; };
 		0D1D83EC23E79C7A0056916F /* bitcoinLogo80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */; };
@@ -42,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D1D83E323E79B500056916F /* newBitcoinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBitcoinLogo.png; sourceTree = "<group>"; };
-		0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newerBitcoinLogo.png; sourceTree = "<group>"; };
 		0D1D83E723E79C710056916F /* bitcoinLogo40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo40px.png; sourceTree = "<group>"; };
 		0D1D83E923E79C760056916F /* bitcoinLogo60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo60px.png; sourceTree = "<group>"; };
 		0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinLogo80px.png; sourceTree = "<group>"; };
@@ -147,8 +143,6 @@
 		0DAED86F23E6C61500F87412 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				0D1D83E523E79BB90056916F /* newerBitcoinLogo.png */,
-				0D1D83E323E79B500056916F /* newBitcoinLogo.png */,
 				0D1D83E923E79C760056916F /* bitcoinLogo60px.png */,
 				0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */,
 				0D1D83E723E79C710056916F /* bitcoinLogo40px.png */,
@@ -265,10 +259,8 @@
 				0DACE3E623E6196B0018A64A /* Assets.xcassets in Resources */,
 				0DACE3E423E619660018A64A /* Main.storyboard in Resources */,
 				0DAED87123E6C62800F87412 /* bitcoinlogo.png in Resources */,
-				0D1D83E423E79B500056916F /* newBitcoinLogo.png in Resources */,
 				0D1D83EA23E79C760056916F /* bitcoinLogo60px.png in Resources */,
 				0D1D83EC23E79C7A0056916F /* bitcoinLogo80px.png in Resources */,
-				0D1D83E623E79BB90056916F /* newerBitcoinLogo.png in Resources */,
 				0D1D83E823E79C710056916F /* bitcoinLogo40px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
