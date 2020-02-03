@@ -109,14 +109,13 @@ extension ViewController {
         
         if annotation !== mapView.userLocation {
             annotationView?.image = UIImage(named: "bitcoinLogo40px")
+            annotationView?.canShowCallout = true
+            return annotationView
         }
-        
-        annotationView?.canShowCallout = true
-        
-        return annotationView
+        return nil
     }
     
-    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        print("The annotation was selected: \(view.annotation?.title)")
-    }
+//    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+//        print("The annotation was selected: \(view.annotation?.title)")
+//    }
 }
