@@ -20,6 +20,20 @@
 		0DACE3FF23E6196B0018A64A /* CryptoFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACE3FE23E6196B0018A64A /* CryptoFinderUITests.swift */; };
 		0DAED87123E6C62800F87412 /* bitcoinlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAED87023E6C62800F87412 /* bitcoinlogo.png */; };
 		0DBBE19023E6AF390088C597 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBE18F23E6AF390088C597 /* Venue.swift */; };
+		0DF4B7D623EBE3C0009C07EB /* lemonadestand (6).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7CE23EBE3BF009C07EB /* lemonadestand (6).jpg */; };
+		0DF4B7D723EBE3C0009C07EB /* lemonadestand (2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7CF23EBE3BF009C07EB /* lemonadestand (2).jpg */; };
+		0DF4B7D823EBE3C0009C07EB /* lemonadestand (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D023EBE3BF009C07EB /* lemonadestand (1).jpg */; };
+		0DF4B7D923EBE3C0009C07EB /* lemonadestand (3).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D123EBE3BF009C07EB /* lemonadestand (3).jpg */; };
+		0DF4B7DA23EBE3C0009C07EB /* lemonadestand (7).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D223EBE3BF009C07EB /* lemonadestand (7).jpg */; };
+		0DF4B7DB23EBE3C0009C07EB /* lemonadestand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D323EBE3BF009C07EB /* lemonadestand.jpg */; };
+		0DF4B7DC23EBE3C0009C07EB /* lemonadestand (4).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D423EBE3BF009C07EB /* lemonadestand (4).jpg */; };
+		0DF4B7DD23EBE3C0009C07EB /* lemonadestand (5).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7D523EBE3BF009C07EB /* lemonadestand (5).jpg */; };
+		0DF4B7E023EBE453009C07EB /* lemonadestand (9).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7DE23EBE453009C07EB /* lemonadestand (9).jpg */; };
+		0DF4B7E123EBE453009C07EB /* lemonadestand (8).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7DF23EBE453009C07EB /* lemonadestand (8).jpg */; };
+		0DF4B7E323EBE481009C07EB /* lemonadestand (10).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7E223EBE481009C07EB /* lemonadestand (10).jpg */; };
+		0DF4B7E523EBE497009C07EB /* lemonadestand (11).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7E423EBE497009C07EB /* lemonadestand (11).jpg */; };
+		0DF4B7E723EBE4AE009C07EB /* lemonadestand (12).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7E623EBE4AE009C07EB /* lemonadestand (12).jpg */; };
+		0DF4B7E923EBE50F009C07EB /* lemonadestand (13).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4B7E823EBE50F009C07EB /* lemonadestand (13).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +73,20 @@
 		0DACE40023E6196B0018A64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DAED87023E6C62800F87412 /* bitcoinlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcoinlogo.png; sourceTree = "<group>"; };
 		0DBBE18F23E6AF390088C597 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		0DF4B7CE23EBE3BF009C07EB /* lemonadestand (6).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (6).jpg"; sourceTree = "<group>"; };
+		0DF4B7CF23EBE3BF009C07EB /* lemonadestand (2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (2).jpg"; sourceTree = "<group>"; };
+		0DF4B7D023EBE3BF009C07EB /* lemonadestand (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (1).jpg"; sourceTree = "<group>"; };
+		0DF4B7D123EBE3BF009C07EB /* lemonadestand (3).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (3).jpg"; sourceTree = "<group>"; };
+		0DF4B7D223EBE3BF009C07EB /* lemonadestand (7).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (7).jpg"; sourceTree = "<group>"; };
+		0DF4B7D323EBE3BF009C07EB /* lemonadestand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemonadestand.jpg; sourceTree = "<group>"; };
+		0DF4B7D423EBE3BF009C07EB /* lemonadestand (4).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (4).jpg"; sourceTree = "<group>"; };
+		0DF4B7D523EBE3BF009C07EB /* lemonadestand (5).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (5).jpg"; sourceTree = "<group>"; };
+		0DF4B7DE23EBE453009C07EB /* lemonadestand (9).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (9).jpg"; sourceTree = "<group>"; };
+		0DF4B7DF23EBE453009C07EB /* lemonadestand (8).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (8).jpg"; sourceTree = "<group>"; };
+		0DF4B7E223EBE481009C07EB /* lemonadestand (10).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (10).jpg"; sourceTree = "<group>"; };
+		0DF4B7E423EBE497009C07EB /* lemonadestand (11).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (11).jpg"; sourceTree = "<group>"; };
+		0DF4B7E623EBE4AE009C07EB /* lemonadestand (12).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (12).jpg"; sourceTree = "<group>"; };
+		0DF4B7E823EBE50F009C07EB /* lemonadestand (13).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemonadestand (13).jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +171,20 @@
 		0DAED86F23E6C61500F87412 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DF4B7D023EBE3BF009C07EB /* lemonadestand (1).jpg */,
+				0DF4B7E423EBE497009C07EB /* lemonadestand (11).jpg */,
+				0DF4B7E623EBE4AE009C07EB /* lemonadestand (12).jpg */,
+				0DF4B7CF23EBE3BF009C07EB /* lemonadestand (2).jpg */,
+				0DF4B7E223EBE481009C07EB /* lemonadestand (10).jpg */,
+				0DF4B7D123EBE3BF009C07EB /* lemonadestand (3).jpg */,
+				0DF4B7DF23EBE453009C07EB /* lemonadestand (8).jpg */,
+				0DF4B7DE23EBE453009C07EB /* lemonadestand (9).jpg */,
+				0DF4B7D423EBE3BF009C07EB /* lemonadestand (4).jpg */,
+				0DF4B7D523EBE3BF009C07EB /* lemonadestand (5).jpg */,
+				0DF4B7CE23EBE3BF009C07EB /* lemonadestand (6).jpg */,
+				0DF4B7D223EBE3BF009C07EB /* lemonadestand (7).jpg */,
+				0DF4B7D323EBE3BF009C07EB /* lemonadestand.jpg */,
+				0DF4B7E823EBE50F009C07EB /* lemonadestand (13).jpg */,
 				0D1D83E923E79C760056916F /* bitcoinLogo60px.png */,
 				0D1D83EB23E79C7A0056916F /* bitcoinLogo80px.png */,
 				0D1D83E723E79C710056916F /* bitcoinLogo40px.png */,
@@ -255,13 +297,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF4B7E723EBE4AE009C07EB /* lemonadestand (12).jpg in Resources */,
+				0DF4B7E323EBE481009C07EB /* lemonadestand (10).jpg in Resources */,
 				0DACE3E923E6196B0018A64A /* LaunchScreen.storyboard in Resources */,
+				0DF4B7E523EBE497009C07EB /* lemonadestand (11).jpg in Resources */,
+				0DF4B7E123EBE453009C07EB /* lemonadestand (8).jpg in Resources */,
+				0DF4B7DB23EBE3C0009C07EB /* lemonadestand.jpg in Resources */,
 				0DACE3E623E6196B0018A64A /* Assets.xcassets in Resources */,
+				0DF4B7D623EBE3C0009C07EB /* lemonadestand (6).jpg in Resources */,
+				0DF4B7E923EBE50F009C07EB /* lemonadestand (13).jpg in Resources */,
+				0DF4B7DD23EBE3C0009C07EB /* lemonadestand (5).jpg in Resources */,
+				0DF4B7DC23EBE3C0009C07EB /* lemonadestand (4).jpg in Resources */,
 				0DACE3E423E619660018A64A /* Main.storyboard in Resources */,
 				0DAED87123E6C62800F87412 /* bitcoinlogo.png in Resources */,
 				0D1D83EA23E79C760056916F /* bitcoinLogo60px.png in Resources */,
+				0DF4B7D923EBE3C0009C07EB /* lemonadestand (3).jpg in Resources */,
+				0DF4B7DA23EBE3C0009C07EB /* lemonadestand (7).jpg in Resources */,
 				0D1D83EC23E79C7A0056916F /* bitcoinLogo80px.png in Resources */,
+				0DF4B7D723EBE3C0009C07EB /* lemonadestand (2).jpg in Resources */,
+				0DF4B7E023EBE453009C07EB /* lemonadestand (9).jpg in Resources */,
 				0D1D83E823E79C710056916F /* bitcoinLogo40px.png in Resources */,
+				0DF4B7D823EBE3C0009C07EB /* lemonadestand (1).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
