@@ -11,6 +11,7 @@ import Foundation
 struct VenueList: Decodable {
     let venues: [Venue]
 }
+
 //venue features matching API
 
 struct Venue: Decodable {
